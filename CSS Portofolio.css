@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: sans-serif;
+    line-height: 1.4;
+    color: white;
+    font-weight: 400;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(201, 128, 128);
+    box-shadow: 0 2px 0 rgba(65, 38, 41, 0.4);
+    width: 100%;
+    z-index: 10;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    color: white;
+    margin-right: 2rem;
+}
+
+
+.nav-list a{
+    display: block;
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list a:hover{
+    background-color: rgb(199, 169, 169);
+}
+
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  }
+
+  .welcome-section p{
+      color: white;
+      font-family: sans-serif;
+  }
+.gambar{
+    width: 140px;
+    height: 130px;
+    margin: 20px;
+    padding-top: 10rem;
+    padding-bottom: 16px;
+    background-image: url(1.jpg);
+    background-color: rgb(217, 214, 214);
+    background-size: cover;
+    border-radius: 10px;
+    }
+
+
+
+.welcome-section p{
+    margin: 0 216px 0 216px;
+    padding-top: 30px;
+    font-style: italic;
+}
+
+.education-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px;
+    text-align: center;
+    list-style: none;
+    width: 100%;
+    height: 120vh;
+    background: linear-gradient(62deg, rgb(146, 187, 187) 0%, rgb(18, 183, 183) 100%);
+}
+
+.education-section h1{
+    padding-bottom: 30px;
+    font-family: georgia, serif;
+}
+
+.gallery{
+    padding: 40px;
+}
+
+.gallery img{
+    width: 200;
+    height: auto;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(62deg, rgb(137, 149, 171) 0%, rgb(58, 117, 218) 100%);
+}
+.contact h1{
+    padding-bottom: 30px;
+    font-size: 30px;
+
+}
+.contact li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 7px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: rgb(187, 178, 183);
+    font-family: serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
